@@ -52,7 +52,7 @@ export default function Home() {
 
     return (
         <>
-            {/* <Preloader /> */}
+            <Preloader />
             <main className="bg-black text-white min-h-screen w-full overflow-x-hidden selection:bg-yellow-500 selection:text-black">
                 <CosmicBackground />
 
