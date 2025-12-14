@@ -6,30 +6,30 @@ import MaskedText from './MaskedText';
 
 const projects = [
     {
-        title: "UNREAL ENGINE 5",
-        category: "TECHNOLOGY",
+        title: "UNREAL ENGINE 5.4 LAUNCH",
+        category: "RENDER_TECH",
         src: "https://images.unsplash.com/photo-1626379953822-baec19c3accd?auto=format&fit=crop&q=80&w=1000",
         colSpan: "col-span-1 md:col-span-2",
         rowSpan: "row-span-1 md:row-span-2"
     },
     {
-        title: "DIGITAL FASHION",
-        category: "DESIGN",
-        src: "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&q=80&w=800",
+        title: "AI & GENERATIVE DESIGN",
+        category: "INNOVATION",
+        src: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=800",
         colSpan: "col-span-1",
         rowSpan: "row-span-1"
     },
     {
-        title: "IMMERSIVE WEB",
-        category: "DEVELOPMENT",
+        title: "SPATIAL COMPUTING ERA",
+        category: "HARDWARE",
+        src: "https://images.unsplash.com/photo-1592478411213-61535fdd861d?auto=format&fit=crop&q=80&w=800",
+        colSpan: "col-span-1",
+        rowSpan: "row-span-1"
+    },
+    {
+        title: "WEBGL PERFORMANCE STUDY",
+        category: "OPTIMIZATION",
         src: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
-        colSpan: "col-span-1",
-        rowSpan: "row-span-1"
-    },
-    {
-        title: "CYBERPUNK AESTHETICS",
-        category: "TRENDS",
-        src: "https://images.unsplash.com/photo-1515630278258-407f66498911?auto=format&fit=crop&q=80&w=800",
         colSpan: "col-span-1 md:col-span-3",
         rowSpan: "row-span-1"
     }
@@ -47,7 +47,7 @@ export default function NewsBento() {
                 </div>
                 <div className="hidden md:block text-right">
                     <p className="text-xs font-mono text-neutral-500">SYSTEM_STATUS: ONLINE</p>
-                    <p className="text-xs font-mono text-neutral-500">LAST_UPDATED: 2025.12.13</p>
+                    <p className="text-xs font-mono text-neutral-500">LAST_UPDATED: 2025.12.15</p>
                 </div>
             </div>
 
